@@ -98,8 +98,8 @@ def scrapeWiki(url, visit_list, n, n_remain):
 wiki_link = input("Please input a wiki link: ")
 #wiki_link="https://en.wikipedia.org/wiki/LinkedIn"
 
-### 2) Accepts a valid integer between 1 to 20 - call it n
-n = input("Please input a number between 1 to 20: ")
+### 2) Accepts a valid integer between 1 to 3 - call it n
+n = input("Please input a number between 1 to 3: ")
 
 # check if the input number is valid
 try:
@@ -109,8 +109,8 @@ except ValueError: # not an integer
     print("[exit code=-1] Input is not a number.")
     exit()
 
-if int(n, 10) < 1 or 20 < int(n, 10): # not 1-20
-    print("[exit code=-2] Input number is not between 1 and 20.")
+if int(n, 10) < 1 or 3 < int(n, 10): # not 1-3
+    print("[exit code=-2] Input number is not between 1 and 3.")
     exit()
 
 wiki_visit_list=[]
