@@ -124,4 +124,4 @@ print()
 #invoke scarpe function
 scrapeWiki(wiki_link, wiki_visit_list, n, n_remain)
 print()
-print("Jason file is created in the same folder as this script. Please check the file.")
+print("Json file is created in the same folder as this script. Please check the file.")
