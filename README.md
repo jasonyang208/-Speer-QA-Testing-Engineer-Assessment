@@ -5,7 +5,7 @@ This script is tested on
 
 python --version
 
-Python 3.11.2
+Python 3.9.13
 
 Please install the followiing modules before running this script.
 
